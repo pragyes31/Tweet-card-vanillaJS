@@ -1,0 +1,44 @@
+body {
+  font-family: sans-serif;
+}
+
+#app {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tweet-card {
+  min-width: 600px;
+  min-height: 300px;
+  background-color: #eaeeee;
+}
+
+.user-info {
+  width: inherit;
+  height: 70px;
+  background-color: #eae123;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.avatar {
+  width: 175px;
+  height: 50px;
+  background-color: #56a8a8;
+}
+
+.options {
+  width: 175px;
+  height: 50px;
+  background-color: #56a8a8;
+}
+
+.tweet {
+  width: 600px;
+  height: 130px;
+  background-color: #0b6657;
+}
