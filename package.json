@@ -1,7 +1,7 @@
 {
-  "name": "tweet-card-vanillajs",
+  "name": "tweet-card",
   "version": "1.0.0",
-  "description": "Twitter tweet card using Pure JavaScript.",
+  "description": "Twitter tweet card.",
   "main": "index.html",
   "scripts": {
     "start": "parcel index.html --open",

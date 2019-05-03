@@ -20,7 +20,6 @@ body {
 .user-info {
   width: inherit;
   height: 70px;
-  background-color: #eae123;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -29,7 +28,6 @@ body {
 .avatar {
   width: 175px;
   height: 50px;
-  background-color: #56a8a8;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -55,7 +53,6 @@ body {
 .options {
   width: 175px;
   height: 50px;
-  background-color: #56a8a8;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -88,17 +85,17 @@ body {
 
 .tweet {
   width: inherit;
-  height: 90px;
+  height: auto;
   background-color: #aabbcc;
   display: flex;
   align-items: center;
+  padding: 20px;
 }
 
 .timestamp {
   width: inherit;
-  height: 25px;
   background-color: #fff;
-  padding-left: 20px;
+  padding: 5px 20px;
   color: #a2acb5;
 }
 
