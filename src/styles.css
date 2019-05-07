@@ -11,8 +11,8 @@ body {
 }
 
 .tweet-card {
-  min-width: 600px;
-  min-height: 220px;
+  width: 600px;
+  min-height: 180px;
   background-color: #f9fafa;
   padding: 25px 30px 15px 30px;
 }
@@ -80,7 +80,8 @@ body {
 
 .tweet-area {
   width: inherit;
-  height: 110px;
+  height: auto;
+  margin-bottom: 20px;
 }
 
 .tweet {
@@ -88,13 +89,12 @@ body {
   height: auto;
   display: flex;
   align-items: center;
-  padding: 20px;
+  padding: 10px 20px;
 }
 
 .timestamp {
   width: inherit;
-  background-color: #fff;
-  padding: 5px 20px;
+  padding: 0px 20px;
   color: #a2acb5;
 }
 
@@ -114,11 +114,19 @@ body {
   height: 20px;
   padding-left: 20px;
   margin-right: 10px;
+  cursor: pointer;
 }
 
 .retweet-img {
-  width: 10px;
-  height: 10px;
+  width: 15px;
+  height: 15px;
+  padding-left: 20px;
+  margin-right: 10px;
+}
+
+.like-img {
+  width: 18px;
+  height: 15px;
   padding-left: 20px;
   margin-right: 10px;
 }
