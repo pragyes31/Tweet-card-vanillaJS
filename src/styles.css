@@ -13,7 +13,7 @@ body {
 .tweet-card {
   min-width: 600px;
   min-height: 220px;
-  background-color: #eaeeee;
+  background-color: #f9fafa;
   padding: 25px 30px 15px 30px;
 }
 
@@ -81,13 +81,11 @@ body {
 .tweet-area {
   width: inherit;
   height: 110px;
-  background-color: #0b6657;
 }
 
 .tweet {
   width: inherit;
   height: auto;
-  background-color: #aabbcc;
   display: flex;
   align-items: center;
   padding: 20px;
