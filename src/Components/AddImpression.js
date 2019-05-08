@@ -13,11 +13,11 @@ export default class AddImpression extends React.Component {
         </div>
         <div className="retweet">
           <img className="retweet-img" src={retweetBtn} alt="" />
-          <div className="retweet-count">1.2k</div>
+          <div className="retweet-count">343</div>
         </div>
         <div className="like">
           <img className="like-img" src={likeBtn} alt="" />
-          <div className="like-count">1.2k</div>
+          <div className="like-count">3.4k</div>
         </div>
       </div>
     );

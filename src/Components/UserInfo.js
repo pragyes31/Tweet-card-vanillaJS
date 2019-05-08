@@ -7,12 +7,12 @@ export default class UserInfo extends React.Component {
         <div className="avatar">
           <img
             className="profile-pic"
-            src="http://bit.do/eQzFo"
+            src={this.props.imgSource}
             alt="profile-pic"
           />
           <div className="user-name">
             <div className="name">{this.props.userName}</div>
-            <div className="handle">@randomUser</div>
+            <div className="handle">{this.props.handleName}</div>
           </div>
         </div>
         <div className="options">

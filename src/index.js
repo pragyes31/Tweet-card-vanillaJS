@@ -11,7 +11,11 @@ class TwitterCard extends React.Component {
   render() {
     return (
       <div>
-        <UserInfo userName="Random User" />
+        <UserInfo
+          userName="Random User"
+          imgSource="http://tiny.cc/jpyb6y"
+          handleName="@RandomUser"
+        />
         <TweetArea />
         <AddImpression />
       </div>
